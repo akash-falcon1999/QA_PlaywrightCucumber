@@ -37,7 +37,7 @@ JSONPlaceholder is a *fake* API: it does not validate input and returns `201` ec
 
 ## Test results
 - API (5 scenarios): **passed** – see `reports/`.
-- UI: ⚠️ **run `npm test` on your machine and commit the refreshed `reports/` folder** (my sandbox could not download the browser). Math oracle vs app logic was verified (₹23,23,391 for 10,000/12%/10y).
+- UI: ⚠️ **run `npm test` on your machine and commit the refreshed `reports/` folder** 
 
 ## AI Assistant(here mostly Github Copilot and a little Claude) reflection  
 - **How I used it:** 
