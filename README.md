@@ -13,7 +13,7 @@ npm run test:selfheal     # EXPECTED to fail – broken locators on purpose
 npm run sql               # runs SQL scenarios on SQLite, writes sql/results.txt
 ```
 Reports: `reports/cucumber-report.html`, `reports/cucumber-report.json`, screenshots in `reports/screenshots/`.
-
+SQL Query Run and Schema Screenshots from sqlite in sql folder
 ## Architecture
 ```
 app/index.html      the web app (vanilla JS, inline SVG charts, no CDN)
