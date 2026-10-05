@@ -39,7 +39,7 @@ JSONPlaceholder is a *fake* API: it does not validate input and returns `201` ec
 - API (5 scenarios): **passed** – see `reports/`.
 - UI: ⚠️ **run `npm test` on your machine and commit the refreshed `reports/` folder** (my sandbox could not download the browser). Math oracle vs app logic was verified (₹23,23,391 for 10,000/12%/10y).
 
-## AI Assistant(here mostly Github Copilot and a little Claude) reflection  *(edit with your own experience)*
+## AI Assistant(here mostly Github Copilot and a little Claude) reflection  
 - **How I used it:** 
  **Framework Scaffolding: Started by describing the desired Playwright + Cucumber BDD framework in plain language. The AI scaffolded the initial directory layout, separating features, step definitions, and Page Object Model (POM) files, alongside environment configuration files to avoid hardcoded URLs.  
  **Test Scenario & Step Definition Generation: Used the AI to draft gherkin feature files and map them to Playwright step definitions, particularly for complex component interactions like handling range sliders and calendar widgets.
