@@ -1,0 +1,13 @@
+{
+  "name": "wealthramp-qa",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "test": "cucumber-js --tags \"not @selfheal-demo\"",
+    "test:ui": "cucumber-js --tags \"@ui\"",
+    "test:api": "cucumber-js --tags \"@api\"",
+    "test:selfheal": "cucumber-js --tags \"@selfheal-demo\"",
+    "sql": "python3 sql/run_sql.py"
+  },
+  "devDependencies": { "@cucumber/cucumber": "^11.0.0", "dotenv": "^16.4.5", "playwright": "^1.48.0", "chai": "^4.5.0" }
+}
